@@ -17,7 +17,6 @@ header {
 }
 
 .encabezados {
-  height: 30%;
   color: #FFFFFF;
   font-family: titulos;
   text-decoration: underline;
@@ -64,7 +63,6 @@ a {
 
 a:hover {
   color: #D2B4DE;
-  font-size: 2rem;
   text-decoration: overline;
 }
 
@@ -115,11 +113,10 @@ aside {
 }
 
 main {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content:
-
 }
 
 .titulos {
@@ -132,7 +129,6 @@ main {
 }
 
 section {
-  width: 100vw;
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
@@ -198,6 +194,32 @@ section {
   text-align: center;
 }
 
+.card{
+  width: 70%;
+  height: 80%;
+  padding: 2%;
+
+  }
+.card-body{
+    background-color:  #082540;
+    justify-content: space-around;
+    display:flex;align-items: center;
+      }
+.card-img-top {
+  padding: 2%;
+  height: 65%;
+}
+.card-title{
+  font-family: titulos;
+  color:  #FFFFFF;
+  font-size: medium;
+}
+.btn {
+  font-size: small;
+  width: 40%;
+  background-color: green;
+  border: #ffffff;
+}
 footer {
   height: 20vh;
   background: #082540;
@@ -260,58 +282,64 @@ footer {
   color: #FFFFFF;
   text-align: center;
 }
+
+
+@media (min-width: 900px) {
+  .chef {
+    display: none;
+  }
+}
+
 @media (max-width: 770px) {
-  header{
-    display: flex;justify-content: center;}
-}
-@media (max-width: 770px){
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
   nav {
-    background-color: #AB5C16;display: flex;flex-direction: column;}
+    display: flex;
+    flex-direction: column;
+  }
+.mapa {
+  display: none;
 }
-@media (max-width: 770px){
-  .parrafo {
-    background-color: #AB5C16;}
+  .mapa2 {
+    display: none;
   }
-@media (max-width: 770px){
-    .mapa2{
-      display: none;}
+.imagen1{
+  display: none;
+}
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-@media (max-width: 770px){
-    section {display: flex;flex-direction: column;
-    align-items: center;}
-  }
-@media (max-width: 770px){
-    footer{
-      background-color: #AB5C16;}
-  }
-@media (max-width: 770px){
-  .icono{
+
+  .icono {
     position: fixed;
     bottom: 8%;
     right: 2%;
   }
 }
-@media (max-width: 580px){
-  .imagen1{
-    display: none;}
-}
-@media (max-width: 580px){
-  .mapa{
-    display: none;}
-}
-@media (max-width: 580px){
-  .imagen2{ display: none;}
-}
-@media (max-width: 580px){
-  .video{
-    display: none;}
-}
-
-@media (max-width: 900px){
-  .redes{width: 50%;}
-}
-@media(min-width: 900px){
-  .chef{
+@media (max-width: 580px) {
+  .imagen1 {
     display: none;
+  }
+
+  .mapa {
+    display: none;
+  }
+
+  .imagen2 {
+    display: none;
+  }
+
+  .video {
+    display: none;
+  }
+  .card-body{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
   }
 }
