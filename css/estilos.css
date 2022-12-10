@@ -48,6 +48,13 @@ header {
   background-color: #ECF0F1
 }
 
+.boton {
+  background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  }
 nav {
   width: 100%;
   background: #082540;
@@ -249,15 +256,13 @@ footer {
   width: 25%;
 }
 
-.firma {
-  width: 30%;
-  font-style: italic;
-  color: #FFFFFF;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+.copy {
+  background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  }
 
 .icono {
   width: 5%;
